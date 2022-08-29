@@ -11,13 +11,12 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <img src="Media/Logo2.png" class="logo">
             <img src="Media/logo2.png" class="logo">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">PLAYLIST</a></li>
                 <li><a href="#">SPECIFICATIONS</a></li>
-                <li><a href="/abou2.html">ABOUT</a></li>
+                <li><a href="#">ABOUT</a></li>
             </ul>
         </div>
         <div class="content">
@@ -36,6 +35,7 @@
 <script>
     var mySong = document.getElementById("mySong");
     var icon = document.getElementById("icon");
+
     icon.onclick = function(){
         if(mySong.paused){
             mySong.play();
